@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: gs-spring-boot-pod
+   labels:
+      componentName: gs-rest-controller
+spec:
+   containers:
+      - name: gs-spring-boot
+        image: santanubasu99/gs-spring-boot
+        ports:
+           - containerPort: 8080

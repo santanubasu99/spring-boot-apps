@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+   name: gs-spring-boot-service
+spec:
+   type: NodePort
+   selector:
+      componentName: gs-rest-controller
+   ports:
+      - port: 8080
+        targetPort: 8080
+        nodePort: 32505
