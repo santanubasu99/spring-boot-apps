@@ -7,6 +7,6 @@ metadata:
 spec:
    containers:
       - name: gs-spring-boot
-        image: santanubasu99/gs-spring-boot
+        image: santanubasu99acr.azurecr.io/gs-spring-boot:v1
         ports:
            - containerPort: 8080
