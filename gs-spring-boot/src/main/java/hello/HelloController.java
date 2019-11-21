@@ -8,6 +8,6 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "\nGreetings from Spring Boot Framework running from AKS with Jenkins pipeline enabled!\n\n";
+		return "\nGreetings from Spring Boot Framework running from AKS with Jenkins pipeline enabled with automated CI/CD pipeline!\n\n";
 	}
 }
